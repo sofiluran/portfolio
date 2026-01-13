@@ -55,6 +55,8 @@ body {
 
 .navbar-item:hover {
   color: var(--primary-color);
+  text-decoration: underline var(--primary-color);
+  text-underline-offset: 20px;
 }
 
 .header {
@@ -153,14 +155,14 @@ body {
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   border-radius: 8px;
   padding: 10px 20px;
   transition: all 0.3s ease;
 }
 
 .see-more:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: var(--text-primary);
   transform: scale(1.05);
   border: 2px solid var(--text-dark);
@@ -191,9 +193,10 @@ body {
 
   padding: 40px;
   border-radius: 12px;
+}
 
-  
-
+.about-title {
+  font-size: 1.9rem;
 }
 
 .about-information {
