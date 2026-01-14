@@ -220,6 +220,19 @@ body {
   padding: 40px;
 }
 
+.cv-button {
+  padding: 8px;
+  text-decoration: none;
+  color: #6a11cb;
+  font-weight: bold;
+}
+
+.cv-button:hover {
+text-decoration: underline;
+font-weight: bold;
+text-underline-offset: 20px;
+}
+
 .project-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -267,12 +280,10 @@ body {
 }
 
 .contact {
-  /* background-color: rgb(224, 238, 233); */
-  /* padding: 24px; */
+
   text-align: center;
   text-transform: uppercase;
-  /* display: grid; */
-  /* grid-template-columns: auto auto; */
+
   grid-template-rows: auto auto;
 
   max-width: 900px;
@@ -303,8 +314,7 @@ body {
 }
 
 .contact-mail {
-  /* grid-column: 1 / 2;
-  grid-row: 2 / 3; */
+
 
   display: inline-block;
   font-size: 1.1rem;
