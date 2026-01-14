@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./styles/typography.css">
   <script src="./scripts/script.js" defer></script>
   <link rel="icon" type="image/png" href="./images/favicon.png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -40,7 +41,7 @@
     </header>
 
 
-    <div id="about" class="about">
+    <div data-aos="fade-up" id="about" class="about">
       <h2 class="about-title">Hi, I'm Sofia. Nice to meet you.</h2>
       <p class="about-information">I'm a frontend developer based in Stockholm, currently studying at Futuregames. My
         path into tech is not traditional – and that is my strength. Before writing code, I studied cultural science and
@@ -53,11 +54,11 @@
         currently seeking opportunities as a Frontend Developer, where I can grow, contribute, and help create digital
         experiences that truly connect with people.
       </p>
-      <div>Download my CV</div>
+      <a href="" download class="cv-button">Download my CV</a>
     </div>
 
 
-    <div id="projects" class="project-intro">Projects</div>
+    <div data-aos="fade-in" data-aos-duration="4000" id="projects" class="project-intro">Projects</div>
 
     <div class="project-container"></div>
 
@@ -65,7 +66,7 @@
       <div class="contact">
         <div class="contact-title">Hi There!</div>
         <a href="mailto:runsten.sofia@gmail.com" class="contact-mail">Send me an email!</a>
-        <img src="./images/Sofia.png" alt="Picture of Sofia" height="200px" width="auto" class="contact-img">
+        <img data-aos="fade-up-left" src="./images/Sofia.png" alt="Picture of Sofia" height="200px" width="auto" class="contact-img">
       </div>
 
       <div class="socials">
@@ -83,6 +84,11 @@
   </main>
 
   <footer class="footer">&copy; Copyright 2026 by Sofia Runsten</footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
