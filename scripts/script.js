@@ -24,7 +24,7 @@ const showProjects = () => {
 
     projectCard.innerHTML = `
       <div class="project-image">
-      <img src="${project.image}" alt="${project.name}">
+      <img src="${project.image}" alt="${project.name}" width="100%" height="auto">
       </div>
       <h3 class="project-title">${project.name}</h3>
       <button class="see-more">See More</button>

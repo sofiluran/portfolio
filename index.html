@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <meta name="description"
+    content="Frontend developer portfolio showcasing modern, performant, and accessible web applications." />
+  <title>Sofia Runsten-Portfolio</title>
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/typography.css">
   <script src="./scripts/script.js" defer></script>
@@ -16,7 +18,7 @@
   <div class="navbar">
     <div class="logo">
       <a href="index.html">
-        <img src="./images/SR-logo-vit.PNG" alt="Sofia" height="80px" width="auto">
+        <img src="./images/SR-logo-vit.PNG" alt="Sofia-logo" height="80px" width="auto">
       </a>
     </div>
     <div class="navbar-items">
@@ -25,56 +27,60 @@
       <a href="#about" class="navbar-item">About</a>
       <a href="#contact" class="navbar-item">Contact</a>
     </div>
-    <button class="hamburger">
+    <button class="hamburger" aria-label="Open navigation menu">
       <span></span>
       <span></span>
       <span></span>
     </button>
   </div>
-
-  <header class="header">
-    <h1 class="header-title">Sofia Runsten</h1>
-    <h3 class="header-text">Frontend Developer with a background in storytelling.</h3>
-  </header>
-
-
-  <div id="about" class="about">
-    <h2 class="about-title">Hi, I'm Sofia. Nice to meet you.</h2>
-    <p class="about-information">I'm a frontend developer based in Stockholm, currently studying at Futuregames. My
-      path into tech is not traditional – and that is my strength. Before writing code, I studied cultural science and
-      acting, earning a bachelor’s degree in cultural studies from Stockholm University. Through storytelling,
-      performance, and academic research, I developed a deep understanding of communication, human behavior, and how
-      context, identity, and aesthetics shape the way people experience the world.<br> <br> When I’m not coding, you’ll
-      likely find me exploring new restaurants, watching films, or drawing inspiration from art and culture.<br> <br>I’m
-      currently seeking opportunities as a Frontend Developer, where I can grow, contribute, and help create digital
-      experiences that truly connect with people.</p>
-    <div>Download my CV</div>
-  </div>
+  <main>
+    <header class="header">
+      <h1 class="header-title">Sofia Runsten</h1>
+      <h2 class="header-text">Frontend Developer with a background in storytelling.</h2>
+    </header>
 
 
-  <div id="projects" class="project-intro">Projects</div>
-
-  <div class="project-container"></div>
-
-  <div id="contact" class="contact-container">
-    <div class="contact">
-      <div class="contact-title">Hi There!</div>
-      <a href="mailto:runsten.sofia@gmail.com" class="contact-mail">Send me an email!</a>
-      <img src="./images/Sofia.png" alt="Sofia" height="200px" width="auto" class="contact-img">
+    <div id="about" class="about">
+      <h2 class="about-title">Hi, I'm Sofia. Nice to meet you.</h2>
+      <p class="about-information">I'm a frontend developer based in Stockholm, currently studying at Futuregames. My
+        path into tech is not traditional – and that is my strength. Before writing code, I studied cultural science and
+        acting, earning a bachelor’s degree in cultural studies from Stockholm University. Through storytelling,
+        performance, and academic research, I developed a deep understanding of communication, human behavior, and how
+        context, identity, and aesthetics shape the way people experience the world.<br> <br> When I’m not coding,
+        you’ll
+        likely find me exploring new restaurants, watching films, or drawing inspiration from art and culture.<br>
+        <br>I’m
+        currently seeking opportunities as a Frontend Developer, where I can grow, contribute, and help create digital
+        experiences that truly connect with people.
+      </p>
+      <div>Download my CV</div>
     </div>
 
-    <div class="socials">
-      <a href="https://www.linkedin.com/in/sofia-runsten-5b7bb5275">
-        <img src="./images/linkedin_logo.png" alt="linkedin-logo" height="50px" width="auto">
-      </a>
-      <a href="https://github.com/sofiluran">
-        <img src="./images/github_logo.png" alt="github-logo" height="50px" width="auto">
-      </a>
-      <a href="https://www.instagram.com/sofilur/#">
-        <img src="./images/instagram_logo.png" alt="instagram-logo" height="50px" width="auto">
-      </a>
+
+    <div id="projects" class="project-intro">Projects</div>
+
+    <div class="project-container"></div>
+
+    <div id="contact" class="contact-container">
+      <div class="contact">
+        <div class="contact-title">Hi There!</div>
+        <a href="mailto:runsten.sofia@gmail.com" class="contact-mail">Send me an email!</a>
+        <img src="./images/Sofia.png" alt="Picture of Sofia" height="200px" width="auto" class="contact-img">
+      </div>
+
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/sofia-runsten-5b7bb5275" aria-label="Linkedin-profile">
+          <img src="./images/linkedin_logo.png" alt="linkedin-logo" height="50px" width="auto">
+        </a>
+        <a href="https://github.com/sofiluran" aria-label="GitHub-profile">
+          <img src="./images/github_logo.png" alt="github-logo" height="50px" width="auto">
+        </a>
+        <a href="https://www.instagram.com/sofilur/#" aria-label="Instagram-profile">
+          <img src="./images/instagram_logo.png" alt="instagram-logo" height="50px" width="auto">
+        </a>
+      </div>
     </div>
-  </div>
+  </main>
 
   <footer class="footer">&copy; Copyright 2026 by Sofia Runsten</footer>
 </body>
