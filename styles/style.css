@@ -198,6 +198,7 @@ body {
 }
 
 .about-information {
+  font-size: large;
   font-style: normal;
   padding: 20px 10px 20px 10px;
 }
@@ -366,6 +367,7 @@ body {
   }
 
   .about-information {
+    font-size: large;
     padding: 0;
   }
 
