@@ -297,7 +297,6 @@ body {
   background: linear-gradient(135deg,
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.3));
-
   padding: 80px 24px;
 }
 
@@ -480,5 +479,4 @@ body {
     font-size: 1rem;
     min-width: 120px;
   }
-
 }
