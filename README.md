@@ -9,8 +9,7 @@ experience.
 
 ## Live Site
 
-Explore my portfolio online:  
-https://sofiluran.github.io/portfolio/
+Explore my portfolio [online:](https://sofiluran.github.io/portfolio/)
 
 ## About Me
 
@@ -30,7 +29,8 @@ For each project in this repo, you can find:
 - **Project name**
 - Short description of purpose and goals
 - Technologies used (e.g. HTML, CSS, JavaScript, React)
-- Live demo link (if hosted)
+- Live link 
+- GitHub link 
 
 ## Technologies & Tools
 
